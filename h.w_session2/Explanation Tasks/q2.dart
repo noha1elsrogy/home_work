@@ -3,11 +3,11 @@
 //var: 1- not data type
 //2- don't change var after assignment
 void main() {
-  dynamic x=true;
-  print(x)
+  dynamic x = true;
+  print(x);
   x = 'noha';
   print(x);
-  var y='noha';
-  y = 20;
+  var y = 'noha';
+  //y = 20;
   print(y);
 }
