@@ -14,7 +14,7 @@ void main() {
         c++;
       }
     }
-    if (c > 1 && names.indexOf(name) == i) {
+    if (c > 1 && i == names.indexOf(names[i])) {
       print('${name} appear $c');
     }
   }
